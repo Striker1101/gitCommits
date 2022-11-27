@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "icon" href = "media/logo (1).svg"
+    type = "image/x-icon">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/register.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <div class="headerContainer">
+            <div > <a href="index.html"><img class="home" src="media/logo (1).svg" alt="logo"></a></div>
+            <div class="reg"><h1>REGISTER WITH US </h1></div>
+
+        </div></header>
+        <main id="mainContent">
+            <div ><img class="mainImage" src="media/rl2.svg" alt="logo"></div>
+            <div class="mainContainer">
+                
+                <p>
+                    You know you need something like this in your life to help you realize your deepest dreams.
+                   <p>Sign up now, lets get you there</p> 
+                </p>
+                <p>You know you want to.</p>
+                <form id="Form" >
+                    <label for="motivation" id="motivation">Let's do this!</label>
+                    
+                    <div class="inputs">
+                        <label for="fName">FIRST NAME
+                            <input type="text" name="fName" id="fName"
+                             placeholder="John" required title="first name goes here">
+                    </div>
+
+                    <div class="inputs">
+                        <label for="lName">LAST NAME</label>
+                    <input type="text" name="lName" id="lName" 
+                    placeholder="Smith"  required title=" last name goes here name ">
+                    </div>
+                    
+                    <div class="inputs">
+                        <label for="email">EMAIL</label>
+                    <input type="email" name="email" required id="email" 
+                    placeholder="Johnsmith@gmail.com" title="email address goes here">
+                    </div>
+                    <div class="inputs">
+                        <label for="catgo">USERNAME</label>
+                    <input type="text" name="username" required placeholder="johnSmith"
+                    title="pick your username">
+                    </div>
+                    
+
+                    <div class="inputs">
+                        <label for="country">COUNTRY</label>
+                    <input name="country" id="country" 
+                    placeholder="New York, US" title="country address goes here">
+                    </div>
+                    
+                    <div class="inputs">
+                        <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone-number" required id="phone-number" 
+                    placeholder="+1(860)46787" title="phone number goes here ">
+                    </div>
+                    
+                    <div class="inputs">
+                        <label for="PASSWORD">PASSWORD</label>
+                    <input type="password" name="password" required id="password" title="password goes here">
+                    </div>
+                    
+                    <div class="inputs">
+                        <label for="CONFIRM PASSWORD">CONFIRM PASSWORD</label>
+                        <input type="password" name="cPassword" required id="cPassword" title="confirm your password">
+                    </div>
+
+                    <div class="inputs">
+                    <input type="submit" class="submit" value="submit" title="click to submit your details">
+                </div>
+
+                </form>
+                
+                     
+                     <p>Already have an accout? <a class="login" href="login.html">Log in</a></p>
+            </div>
+        </main>
+        <footer id="footer"></footer>
+    </div>
+</body>
+</html>
